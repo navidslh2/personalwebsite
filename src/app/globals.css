@@ -29,16 +29,18 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: 'vazir',Arial, Helvetica;
+  font-family: "vazir", Arial, Helvetica;
+  @apply text-white;
 }
-
-
 
 @layer base {
   .hoverEffect {
-    @apply transition-all duration-300 ease-in-out
+    @apply transition-all duration-300 ease-in-out;
   }
   .text-shadow {
-   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
-}
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  }
+  .textStyle {
+    @apply bg-gradient-to-l from-[#818f30] via-[#7aa596] to-[#80858a] bg-clip-text text-transparent group-hover:text-[#818f30]
+  }
 }

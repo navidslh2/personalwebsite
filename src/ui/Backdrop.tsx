@@ -9,7 +9,7 @@ interface Props {
 const Backdrop = ({ isShow, backdropHandler }: Props) => {
   return (
     <AnimatePresence>
-      {isShow && <motion.div className="fixed inset-0 w-screen h-screen hoverEffect bg-gray-900/70 backdrop-blur-xs z-20"  onClick={backdropHandler}
+      {isShow && <motion.div className="fixed inset-0 w-screen h-screen hoverEffect bg-gray-900/70 backdrop-blur-xs z-30"  onClick={backdropHandler}
       initial={{opacity: 0}}
       animate={{opacity: 1}}
       exit={{opacity: 0}}

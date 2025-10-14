@@ -14,9 +14,8 @@ const Mobilemenu = ({ isShow, backdropHandler }: Props) => {
   return (
     <AnimatePresence>
       <Backdrop isShow={isShow} backdropHandler={backdropHandler} />
-      <div className="relative   ">
         <motion.header
-          className="fixed right-5 top-5 bottom-5 w-[200px] z-50 border border-gray-900 rounded-xl shadow-md  bg-gray-800 flex flex-col items-center justify-between py-13 gap-10 origin-right"
+          className="fixed right-5 top-5 bottom-5 w-[200px] z-40 border border-gray-900 rounded-xl shadow-md  bg-white/5  flex flex-col items-center justify-between py-13 gap-10 origin-right shadow-[0_4px_30px_rgba(0,0,0,0.3)]"
           initial={{ scaleX: 0 }}
           animate={{ scaleX: 1 }}
           exit={{ scaleX: 0 }}
@@ -39,7 +38,6 @@ const Mobilemenu = ({ isShow, backdropHandler }: Props) => {
             <X />
           </div>
         </motion.header>
-      </div>
     </AnimatePresence>
   );
 };

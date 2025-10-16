@@ -1,10 +1,11 @@
+import Title from "@/ui/Title";
 import Image from "next/image";
 import React from "react";
 
 const AboutMe = () => {
   return (
     <div className="w-screen h-screen flex flex-col items-center justify-center gap-15 md:gap-30 ">
-      <h1 className="text-5xl textStyle">درباره من</h1>
+      <Title>درباره من</Title>
       <div className="flex flex-col md:flex-row items-center justify-center gap-10 2xl:gap-45 px-10 2xl:px-40">
         <div>
           <Image

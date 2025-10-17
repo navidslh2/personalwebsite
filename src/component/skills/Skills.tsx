@@ -6,7 +6,7 @@ import React from "react";
 const Skills = () => {
   const container = {
     hidden: { opacity: 0 },
-    show: { opacity: 1, transition: { staggerChildren: 0.3 ,delayChildren: 0.3} },
+    show: { opacity: 1, transition: { staggerChildren: 0.2 } },
   };
   const icon = {
     hidden: { scale: 0 },
@@ -15,13 +15,14 @@ const Skills = () => {
 
   return (
     <AnimatePresence>
-      <div className="w-screen h-screen flex flex-col items-center justify-center gap-10 md:gap-30">
+      <div className="w-screen h-screen flex flex-col items-center justify-center gap-10 md:gap-40">
         <Title>مهارت ها</Title>
         <motion.div
           className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 2xl:flex gap-x-10 gap-y-5 sm:gap-10 md:gap-18"
           variants={container}
           initial="hidden"
-          animate="show"
+          whileInView="show"
+          viewport={{once:true, amount:0.25}}
         >
           {icons.map((item) => (
             <motion.div

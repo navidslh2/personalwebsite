@@ -8,12 +8,16 @@ import { RiNextjsFill } from 'react-icons/ri';
 import { FaBootstrap } from 'react-icons/fa';
 import { AiOutlineConsoleSql } from 'react-icons/ai';
 import { FaPython } from 'react-icons/fa';
-import { describe } from 'node:test';
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
 
 export const headerData = [
-    {id:1, name:'درباره من'},
-    {id:2, name:'توانایی ها'},
-    {id:3, name:'پروژه ها'}
+    {id:1, name:'خانه', ref:'home' },
+    {id:2, name:'درباره من', ref:'aboutMe'},
+    {id:3, name:'مهارت ها', ref:'skills'},
+    {id:4, name:'پروژه ها', ref:'projects'}
     ]
 
 export const icons = [
@@ -30,6 +34,12 @@ export const icons = [
 ]
 
 export const projects = [
-    {id:1, image:'applenic.png', title:'فروشگاه آنلاین', describe:'این پروژه نسخه‌ای بازسازی‌شده از وب‌سایت www.apple-nic.com   است. در این پروژه ساختار کامل یک فروشگاه آنلاین شامل نمایش محصولات، فیلترها، سبدخرید، لاگین و جزئیات محصول اجرا شده تا عملکرد و طراحی سایت اصلی به‌صورت واقعی شبیه‌سازی شود', firstDescribe:"این پروژه نسخه‌ای بازسازی‌شده از وب‌سایت ", referenceSite:'www.apple-nic.com', secondDescribe:" است. در این پروژه ساختار کامل یک فروشگاه آنلاین شامل نمایش محصولات، فیلترها، سبدخرید، لاگین و جزئیات محصول اجرا شده تا عملکرد و طراحی سایت اصلی به‌صورت واقعی شبیه‌سازی شود." , git:'https://github.com/navidslh2/onlineshop-apple-nic'},
-    {id:2, image:'applenic.png', title:'فروشگاه آنلاین', describe:"یبیبیبی" ,git:"#"}
+    {id:1, image:'applenic.png', title:'فروشگاه آنلاین', describe:'این پروژه نسخه‌ای بازسازی‌شده از وب‌سایت www.apple-nic.com   است. در این پروژه ساختار کامل یک فروشگاه آنلاین شامل نمایش محصولات، فیلترها، سبدخرید، لاگین و جزئیات محصول اجرا شده تا عملکرد و طراحی سایت اصلی به‌صورت واقعی شبیه‌سازی شود', git:'https://github.com/navidslh2/onlineshop-apple-nic'},
+]
+
+export const socialMediaIcon =[
+    {id:1,icon:<FaGithub /> , tooltip:'گیت هاب',href:'https://github.com/navidslh2', className:'text-black'},
+    {id:2,icon:<FaInstagram /> , tooltip:'اینستاگرام', href:'https://instagram.com/navidslh', className:'text-red-400'},
+    {id:3,icon:<FaLinkedin /> , tooltip:'لینک دین',href:'https://www.linkedin.com/in/navid-salehi-3b4a57341', className:'text-blue-600'},
+    {id:4,icon:<FaTelegram /> , tooltip:'تلگرام',href:'https://t.me/navidslh', className:'text-blue-400'},
 ]

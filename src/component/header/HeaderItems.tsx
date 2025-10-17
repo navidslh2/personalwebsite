@@ -14,7 +14,7 @@ const HeaderItems = ({className}: Props) => {
             key={index}
             className="hover:text-blue-400 hoverEffect cursor-pointer"
           >
-            {item}
+            {item.name}
           </li>
         ))}
       </ul>

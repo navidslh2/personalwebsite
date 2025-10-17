@@ -16,7 +16,7 @@ const Skills = () => {
   return (
     <AnimatePresence>
       <div className="w-screen h-screen flex flex-col items-center justify-center gap-10 md:gap-30">
-        <Title>توانایی ها</Title>
+        <Title>مهارت ها</Title>
         <motion.div
           className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 2xl:flex gap-x-10 gap-y-5 sm:gap-10 md:gap-18"
           variants={container}

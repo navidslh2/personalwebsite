@@ -1,9 +1,9 @@
 'use client'
 
 import AboutMe from "@/component/aboutMe/AboutMe";
-import Cards from "@/component/projectsCard/ProjectsCards";
 import Main from "@/component/main/Main";
 import Skills from "@/component/skills/Skills";
+import Projects from "@/component/projects/Projects";
 
 
 
@@ -13,7 +13,7 @@ export default function Home() {
       <Main />
       <AboutMe />
       <Skills />
-      <Cards />
+      <Projects />
     </div>
   );
 }

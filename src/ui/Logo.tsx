@@ -10,7 +10,7 @@ const Logo = ({mobileMenuHandler}:Props) => {
   return (
     <Link className="group flex items-center font-bold gap-3 relative" href={"/"} onClick={mobileMenuHandler}>
       <div>
-        <Image src={`${process.env.NEXT_PUBLIC_BASE_IMAGE_URL}/logo.png`}  alt="logo" width={30} height={30} className="rounded-full"/>
+        <Image src={"/logo.png"}  alt="logo" width={30} height={30} className="rounded-full"/>
       </div>
       <span className="textStyle hoverEffect">
         نوید صالحی

@@ -15,7 +15,7 @@ const AboutMe = () => {
       <div className="flex flex-col md:flex-row items-center justify-center gap-10 2xl:gap-45 px-10 2xl:px-40">
         <motion.div  style={{y}}>
           <Image
-            src={`${process.env.NEXT_PUBLIC_BASE_IMAGE_URL}/navid.png`}
+            src={"/navid.png"}
             width={350}
             height={350}
             alt="navid"

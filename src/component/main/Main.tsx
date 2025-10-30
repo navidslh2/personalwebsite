@@ -15,7 +15,7 @@ const Main = () => {
       viewport={{once:true}}
       >
         <Image
-          src={`${process.env.NEXT_PUBLIC_BASE_IMAGE_URL}/logo.png`}
+          src={"/logo.png"}
           width={250}
           height={250}
           alt="logo"

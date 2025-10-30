@@ -37,10 +37,10 @@ const ProjectCard = ({ data }: Props) => {
             overflow: "hidden",
           },
         }}
-        transition={{ duration: 0.5, ease: easeIn }}
+        transition={{ duration: 0.5, ease: "easeIn" }}
       >
         <Image
-          src={`${process.env.NEXT_PUBLIC_BASE_IMAGE_URL}/${image}`}
+          src={`/${image}`}
           alt="projectImage"
           width={299}
           height={299}
@@ -67,7 +67,7 @@ const ProjectCard = ({ data }: Props) => {
                   marginTop:"30px"
                 },
               }}
-              transition={{ duration: 0.7, ease: easeIn }}
+              transition={{ duration: 0.7, ease: "easeIn" }}
             >
               {describe}
             </motion.p>

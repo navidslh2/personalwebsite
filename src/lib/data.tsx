@@ -34,7 +34,7 @@ export const icons = [
 ]
 
 export const projects = [
-    {id:1, image:'applenic.png', title:'فروشگاه آنلاین', describe:'این پروژه نسخه‌ای بازسازی‌شده از وب‌سایت www.apple-nic.com   است. در این پروژه ساختار کامل یک فروشگاه آنلاین شامل نمایش محصولات، فیلترها، سبدخرید، لاگین و جزئیات محصول اجرا شده تا عملکرد و طراحی سایت اصلی به‌صورت واقعی شبیه‌سازی شود', git:'https://github.com/navidslh2/onlineshop-apple-nic'},
+    {id:1, href:'/online-shop', image:'applenic.png', title:'فروشگاه آنلاین', describe:'این پروژه نسخه‌ای بازسازی‌شده از وب‌سایت www.apple-nic.com   است. در این پروژه ساختار کامل یک فروشگاه آنلاین شامل نمایش محصولات، فیلترها، سبدخرید، لاگین و جزئیات محصول اجرا شده تا عملکرد و طراحی سایت اصلی به‌صورت واقعی شبیه‌سازی شود'},
 ]
 
 export const socialMediaIcon =[

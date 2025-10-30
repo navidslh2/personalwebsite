@@ -1,8 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { FaGithub } from "react-icons/fa";
-import { easeIn, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 interface Props {
   data: {
@@ -10,22 +9,22 @@ interface Props {
     image: string;
     title: string;
     describe: string;
-    git: string;
+    href:string
   };
 }
 
 const ProjectCard = ({ data }: Props) => {
-  const { image, title, describe, git } = data;
+  const { image, title, describe, href } = data;
 
   const MotionLink = motion(Link);
   return (
     <MotionLink
-      href="#"
+      href={href}
       className="bg-gray-900 w-[300px] h-[350px] rounded-xl flex flex-col justify-between relative overflow-hidden"
       whileHover="hover"
       initial="initial"
       variants={{ hover: { y: -30, boxShadow: "5px 5px 10px #10101080"} }}
-      transition={{ duration: 0.5, ease: easeIn }}
+      transition={{ duration: 0.5, ease:'easeIn'  }}
     >
       <motion.div
         variants={{

@@ -4,7 +4,6 @@ import Backdrop from "@/ui/Backdrop";
 import Logo from "@/ui/Logo";
 import { Phone, X } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
-import { div } from "framer-motion/client";
 
 interface Props {
   isShow: boolean;

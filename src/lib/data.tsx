@@ -13,6 +13,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 
+
 export const headerData = [
     {id:1, name:'خانه', ref:'home' },
     {id:2, name:'درباره من', ref:'aboutMe'},
@@ -31,6 +32,7 @@ export const icons = [
     {id:8,icon: <FaBootstrap /> , name: "bootstrap", color:'text-fuchsia-600'},
     {id:9,icon: <AiOutlineConsoleSql /> , name: "aql", color:'text-black'},
     {id:10,icon: <FaPython /> , name: "python", color:''},
+    {id:11,icon: <FaGithub /> , name: "github", color:'text-black'},
 ]
 
 export const projects = [

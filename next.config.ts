@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
       images: {
-    domains: ['localhost'],
+    domains: ['localhost','https://navidsalehi.vercel.app/'],
   },
   productionBrowserSourceMaps: true
 };

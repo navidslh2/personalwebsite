@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { FaInstagram } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";d
+import { FaLinkedin } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 
 const SocialMedia = () => {

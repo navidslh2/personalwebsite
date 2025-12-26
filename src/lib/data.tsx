@@ -37,6 +37,8 @@ export const icons = [
 
 export const projects = [
     {id:1, href:'https://navidsalehi-cv.ir/', image:'applenic.png', title:'فروشگاه آنلاین', describe:'این پروژه نسخه‌ای بازسازی‌شده از وب‌سایت www.apple-nic.com   است. در این پروژه ساختار کامل یک فروشگاه آنلاین شامل نمایش محصولات، فیلترها، سبدخرید، لاگین و جزئیات محصول اجرا شده تا عملکرد و طراحی سایت اصلی به‌صورت واقعی شبیه‌سازی شود'},
+    {id:2, href:'https://memorycardgame1.vercel.app/', image:'memorycardgame.png', title:'بازی کارت حافظه', describe: 'بازی کارت حافظه با چند سطح سختی (۴×۴، ۸×۸ و ۱۶×۱۶) شامل سیستم امتیازدهی، تایمر، ثبت بهترین رکورد و مودال پایان بازی با امکان شروع مجدد.'},
+
 ]
 
 export const socialMediaIcon =[
@@ -45,3 +47,4 @@ export const socialMediaIcon =[
     {id:3,icon:<FaLinkedin /> , tooltip:'لینک دین',href:'https://www.linkedin.com/in/navid-salehi-3b4a57341', className:'text-blue-600'},
     {id:4,icon:<FaTelegram /> , tooltip:'تلگرام',href:'https://t.me/navidslh', className:'text-blue-400'},
 ]
+

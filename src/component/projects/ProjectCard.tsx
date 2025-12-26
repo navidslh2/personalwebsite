@@ -20,7 +20,7 @@ const ProjectCard = ({ data }: Props) => {
   return (
     <MotionLink
       href={href}
-      className="bg-gray-900 w-[300px] h-[350px] rounded-xl flex flex-col justify-between relative overflow-hidden"
+      className=" w-[300px] h-[350px] rounded-xl flex flex-col justify-between relative overflow-hidden"
       whileHover="hover"
       initial="initial"
       variants={{ hover: { y: -30, boxShadow: "5px 5px 10px #10101080"} }}
@@ -38,19 +38,19 @@ const ProjectCard = ({ data }: Props) => {
           },
         }}
         transition={{ duration: 0.5, ease: "easeIn" }}
+        className="w-full h-[190px]"
       >
         <Image
           src={`/${image}`}
           alt="projectImage"
           width={299}
-          height={299}
-          className="rounded-t-xl"
+          height={250}
+          className="rounded-t-xl object-contain"
         />
       </motion.div>
-      <div className="w-[300px] h-[190px] px-5 flex flex-col justify-between pb-7">
+      <div className="w-full h-[200px] px-5 flex flex-col justify-between pb-7 bg-gray-900">
         <div className="flex flex-col gap-2">
           <h2 className="text-white pt-7 hoverEffect">{title}</h2>
-
           <div className="text-justify text-white text-sm ">
             <motion.p
               variants={{

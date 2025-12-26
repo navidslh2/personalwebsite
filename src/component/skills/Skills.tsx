@@ -22,7 +22,7 @@ const Skills = () => {
           variants={container}
           initial="hidden"
           whileInView="show"
-          viewport={{once:true, amount:0.25}}
+          viewport={{once:true, amount:0}}
         >
           {icons.map((item) => (
             <motion.div

@@ -4,6 +4,9 @@ import Main from "@/component/main/Main";
 import Skills from "@/component/skills/Skills";
 import Projects from "@/component/projects/Projects";
 
+export const dynamic = 'force-dynamic'
+
+
 export default function Home() {
   return (
     <div className=" bg-gray-800">

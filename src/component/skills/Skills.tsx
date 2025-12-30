@@ -1,7 +1,9 @@
 import { icons } from "@/lib/data";
 import Title from "@/ui/Title";
 import { AnimatePresence, motion } from "framer-motion";
-import React from "react";
+
+export const dynamic = 'force-dynamic'
+
 
 const Skills = () => {
   const container = {
